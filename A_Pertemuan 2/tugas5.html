@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .judul{
+            text-align: center;
+        }
+        div{
+            
+            margin-bottom: 1%;
+            
+        }
+        
+    </style>
+</head>
+<body style="width: 600px;">
+    <h1 class="judul">Novel Services Login</h1>
+    <form class="form">
+        
+        <!-- username -->
+        <div class="username">
+            <label for="username">Username:</label> <br>
+            <input style="width: 600px;" type="text" id="username" placeholder="Enter your username"> <br>
+        </div>
+        <!-- password -->
+         <div class="password">
+            <label for="password">Password:</label> <br>
+            <input style="width: 600px;" type="text" id="password" placeholder="Enter your password"> <br>
+        </div>
+        <!-- city of employment -->
+        <div>
+            <label for="city">City of Employment:</label> <br>
+            <input style="width: 600px; type="text" id="password" placeholder="Enter your city of employment"> <br>
+        </div>
+        <!-- web server -->
+         <div>
+            <label for="web">Web Server:</label> <br>
+            <select style="width: 610px;"><option >---Choose a Server---</option></select>
+        </div>
+        <!-- role -->
+         <label for="role">Please specify your role: </label> <br>
+         <input type="radio" name="admin" id="admin" value="admin">
+         <label for="admin">Admin</label> <br>
+         <input type="radio" name="engineer" id="engineer" value="engineer">
+         <label for="admin">Engineer</label> <br>
+         <input type="radio" name="manager" id="manager" value="manager">
+         <label for="admin">Manager</label> <br>
+         <input type="radio" name="guest" id="guest" value="guest">
+         <label for="admin">Guest</label><br>
+        <!-- sign -->
+         <label for="sign">Single Sign-on to the Following:</label> <br>
+         <input type="checkbox" name="mail" id="mail" value="mail">
+         <label for="mail">Mail</label><br>
+         <input type="checkbox" name="payroll" id="payroll" value="payroll">
+         <label for="payroll">Payroll</label><br>
+         <input type="checkbox" name="service" id="service" value="service">
+         <label for="service">Service</label><br>
+         <!-- login -->
+        <div style="margin-left: 30%; class="bottom">
+          <input type="submit" value="Login">
+          <input type="submit" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
