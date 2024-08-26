@@ -1,0 +1,11 @@
+*{
+    padding: 20px 20px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+.list{
+    background-color: #ECF0F1;
+    
+}
