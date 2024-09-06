@@ -1,0 +1,36 @@
+*{
+    margin: 20px ;
+    padding: 0;
+    
+}
+body{
+    box-sizing: border-box;
+    border: 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.tulisan{
+    display: flex;
+    justify-content: center;
+    background-color: #1E90FF;
+    margin:0;
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+}
+.container ul li{
+    list-style: none;
+    width: fit-content;
+}
+.footer{
+    margin: 0;
+    background-color: #1E90FF;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: #fff;
+    font-size: 10px;
+  
+}

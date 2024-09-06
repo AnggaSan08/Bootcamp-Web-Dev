@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  background-color: #ebebeb;
+  margin: 5% 20% 5% 20%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10% 20% 10% 20%;
+  background-color: white;
+  box-shadow: 4px 4px 4px;
+}
+h2,
+h3 {
+  color: gray;
+}
+.input-group input {
+  justify-content: left;
+  border-bottom: 1px solid rgb(230, 224, 224);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+}
+.remember {
+  margin-left: 10%;
+}
+.remember label {
+  font-size: 12px;
+}
+.remember a {
+  font-size: 12px;
+}
+.login {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+.login input {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: 0 solid #4caf50;
+  border-radius: 10%;
+}
+.remember a {
+  text-decoration: none;
+}

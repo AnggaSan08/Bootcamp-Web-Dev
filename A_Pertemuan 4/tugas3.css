@@ -1,0 +1,23 @@
+body{
+    background-image: url("/A_Pertemuan 4/background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+
+}
+.button{
+    box-shadow: 0px 2px 2px black;
+    background-color: #FF69B4;
+    color: white;
+    padding: 1px 10px;
+    font-size: 20px;
+}
